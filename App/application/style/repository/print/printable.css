@@ -1,0 +1,24 @@
+@media print {
+	body {
+		margin-top: 0;
+	}	
+	a[href]:after {
+	    content: none;
+  	}
+	table .fa
+	{
+		display:none;	
+	}
+	#product_table tr td:first-child, #product_table tr th:first-child, #product_table tr th:last-child, #product_table tr td:last-child,
+	#out_reg_table tr th:last-child, #out_reg_table tr td:last-child, 
+	#prom_table tr th:last-child, #prom_table tr td:last-child, 
+	#supplier_table tr th:last-child, #supplier_table tr td:last-child, 
+	#activity_table tr th:last-child, #activity_table tr td:last-child, 
+	#edit_trn_table tr th:last-child, #edit_trn_table tr td:last-child, 
+	#edit_prom_table tr th:last-child, #edit_prom_table tr td:last-child, 
+	#variant_table tr th:last-child, #variant_table tr td:last-child, 
+	#pay_methods tr td:last-child
+	{ 
+		display: none !important; 
+	}
+}
